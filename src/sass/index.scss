@@ -1,3 +1,6 @@
+@import './general';
+@import './variables';
+@import './reset';
 @import './header';
 @import './hero';
 @import './about-restaurant';
@@ -5,9 +8,13 @@
 @import './about-hotel';
 @import './details-hotel';
 @import './contacts';
+@import './book-room-modal.scss';
+@import './book-table-modal.scss';
 @import './kitchen';
 @import './menu';
 @import './luxe';
 @import './standart';
 @import './standart_mini';
-@import './footer'
+@import './room-price-modal';
+@import './amenities';
+@import './footer';

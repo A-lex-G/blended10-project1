@@ -1,0 +1,37 @@
+html {
+    box-sizing: border-box;
+}
+
+*,
+*::before,
+*::after {
+    box-sizing: border-box;
+}
+
+body {
+    // font-family: "Roboto", sans-serif;
+    // background-color: #ffffff;
+    // color: var(--navy-blue);
+    // font-size: 16px;
+}
+
+.container {
+    padding-left: 15px;
+    padding-right: 15px;
+    margin-left: auto;
+    margin-right: auto;
+    min-width: 320px;
+    max-width: 414px;
+
+    @media screen and (min-width: 1024px) {
+        padding-left: 47px;
+        padding-right: 47px;
+        max-width: 930px;
+    }
+
+    @media screen and (main-width: 1280px) {
+        padding-left: 85px;
+        padding-right: 85px;
+        max-width: 1110px;
+    }
+}
