@@ -1,0 +1,81 @@
+// основна кнопка
+.button {
+  width: 236px;
+  height: 48px;
+
+  font-family: 'Montserrat';
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 1.25;
+  letter-spacing: 0.02em;
+  color: #f3c653;
+
+  background-color: rgba(0, 0, 0, 0.4);
+  border: 2px solid #ffffff;
+  border-radius: 25px;
+  cursor: pointer;
+}
+
+.button:hover,
+.button:focus,
+.button-black:hover,
+.button-black:focus {
+  background: #ffffff;
+
+  border-color: #f3c653;
+}
+
+// основна кнопка з чорним фоном .button +
+.button-black {
+  background-color: #000000;
+}
+
+// кнопка бронювання
+.button-booking {
+  width: 290px;
+  height: 50px;
+
+  font-family: 'Montserrat';
+  font-weight: 500;
+  font-size: 18px;
+  line-height: 1.2;
+  text-transform: uppercase;
+  color: #ffffff;
+
+  background-color: #000000;
+  border: 1px solid #f3c653;
+  border-radius: 25px;
+  cursor: pointer;
+}
+
+.button-booking:hover,
+.button-booking:focus {
+  color: #000000;
+  background-color: #f3c653;
+}
+
+@media screen and (min-width: 414px) {
+  .button-booking {
+    width: 384px;
+    height: 64px;
+    font-size: 20px;
+  }
+}
+
+@media screen and (min-width: 1024px) {
+  .button-booking {
+    width: 434px;
+    font-size: 24px;
+  }
+}
+
+// кнопка бронювання квадратна для модалки .button-booking +
+.button-modal {
+  border-radius: 2px;
+}
+
+@media screen and (min-width: 1024px) {
+  .button-modal {
+    width: 592px;
+  }
+}
