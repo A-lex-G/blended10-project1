@@ -1,13 +1,40 @@
 :root {
-    // --iris: #4d5ae5;
-    // --ocean: #404bbf;
-    // --navy-blue: #2e2f42;
-    // --slate: #434455;
-    // --light-slate: #8e8f99;
-    // --cornflower: #e7e9fc;
-    // --cloud: #f4f4fd;
-    // --white: #ffffff;
-    // --green: #31d0aa;
-    --modal-backdrop: #2e2f42;
-    --modal-background: #fcfcfc;
+  // --iris: #4d5ae5;
+  // --ocean: #404bbf;
+  // --navy-blue: #2e2f42;
+  // --slate: #434455;
+  // --light-slate: #8e8f99;
+  // --cornflower: #e7e9fc;
+  // --cloud: #f4f4fd;
+  // --white: #ffffff;
+  // --green: #31d0aa;
+  --modal-backdrop: #2e2f42;
+  --modal-background: #fcfcfc;
+  // Disabled
+  // Button Desktop, Tablet, Mobile
+  --border-button: 2px solid #ffffff;
+  --border-radius-button-order-btn-mobile-first: 25px;
+  --btn-background-first: rgba(0, 0, 0, 0.4);
+  --btn-background-second: #000000;
+  --btn-font-color: #f3c653;
+  // ORDER BUTTON
+  --order-btn-border: 1px solid #f3c653;
+  --order-btn-bacckground: #000000;
+  --order-btn-font-color: #ffffff;
+  --order-btn-border-radius-for-modal-for-mobile-second: 2px;
+  // SLIDER
+  --slider-width: 32px;
+  --slider-height: 32px;
+  --slider-color-first: #ffffff;
+  --slider-color-second: #000000;
+  // HOVER AND CLICK
+  // Button Desktop, Tablet, Mobile
+  --border-button-hover: #f3c653;
+  --btn-font-color-hover: #f3c653;
+  --btn-background-hover: #ffffff;
+  // ORDER BUTTON
+  --order-btn-bacckground-hover: #f3c653;
+  --order-btn-font-color-hover: #000000;
+  // SLIDER
+  --slider-color-hover: #f3c653;
 }
